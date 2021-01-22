@@ -17,6 +17,7 @@ def getExcel():
     df = pd.read_excel(import_file_path)
     print(df)
 
+#Down here you can change the collors of your interface
 
 browseButton_Excel = tk.Button(text='Import Excel File', command=getExcel, bg='black', fg='white',
                                font=('helvetica', 12, 'bold'))
